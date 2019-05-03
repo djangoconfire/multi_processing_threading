@@ -1,4 +1,4 @@
-### Difference in MultiProecesing and MultiThreading
+### Difference in MultiProcessing and MultiThreading
 - Multiprocessing and Multithreading both are way to achieve multitasking.
 - Multitasking
     - Running more than one task at some time. 
