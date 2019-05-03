@@ -13,15 +13,19 @@ import multiprocessing
 # Deposit money 
 def deposit(balance,lock):
     for i in range(100):
+        # putting lock here - critical section 
         lock.acquire()
         balance.value = balance.value + 1
+        # releasing the lock 
         lock.release()
 
 # withdraw money 
 def withdraw(balance,lock):
     for i in range(100):
+        # putting the lock here
         lock.acquire()
         balance.value = balance.value - 1
+        # releasing the lock
         lock.release()
 
 if __name__=="__main__":
