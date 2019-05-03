@@ -18,7 +18,6 @@ def cal_cube(numbers):
         time.sleep(0.2)
         print ("Cube:",n*n*n)
 
-
 numbers = [2,3,4,5]
 
 t1 = time.time()
