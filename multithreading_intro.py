@@ -3,6 +3,7 @@
     created: 3 May, 19
 
     Basics of multithreading 
+        - MultiThreading used when cpu is not doing anything, it suts idle. 
 """
 import time 
 
